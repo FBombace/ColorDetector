@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ColorDetector</string>
+    
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="title_activity_fullscreen_image">Fullscreen image</string>
+    <string name="title_activity_captured_frame">Captured frames</string>
+    
+    <string name="action_settings">Settings</string>
+    <string name="action_picture">Picture</string>
+    <string name="action_camera">Camera</string>
+    
+    <string name="pref_color">Color to search for</string>
+    <string name="pref_quality">Quality of image to be saved</string>
+    <string name="pref_type">Method for taking pictures</string>
+    <string name="pref_what_save">Save picture/s</string>
+    
+    <string name="context_menu_delete">Delete</string>
+    
+	<string name="img_captured_content">Image captured from the cam</string>
+	<string name="img_filtered_content">Image captured from the cam and filtered</string>
+	<string name="img_item_content">Image in the gallery</string>
+	<string name="img_full_content">Image visualized in fullscreen from the gallery</string>
+	<string name="take_picture_content">Take picture</string>
+	
+	<string name="write_error">Writing error, image/s not saved</string>
+	<string name="unexpected_error">Unexpected error, image/s not saved</string>
+	<string name="not_writeable_memory_error">External memory NOT writeable, image/s not saved</string>
+	<string name="not_deleted_image_error">Unexpected error, image NOT deleted</string>
+	<string name="position_error">Error, passed position of the image is NOT valid</string>
+	    
+	<string name="red">Red</string>
+	<string name="yellow">Yellow</string>
+	<string name="green">Green</string>
+	<string name="light_blue">Light blue</string>
+	<string name="blue">Blue</string>
+	<string name="magenta">Magenta</string>
+
+    <string name="save_frame">Save the image and continue</string>
+	<string name="discard_frame">Continue without saving the image</string>
+	<string name="only_picture">Only picture taked</string>
+	<string name="picture_and_color_mask">Picture taked + color mask</string>
+	<string name="manual">Manual</string>
+    <string name="automatic">Automatic</string>
+    <string name="automatic_shoot">Automatic shoot</string>
+    <string name="immediate_shoot">Immediate</string>
+    <string name="shoot_modality">Shoot modality</string>
+    <string name="save_modality">Save image/s modality</string>
+	
+</resources>

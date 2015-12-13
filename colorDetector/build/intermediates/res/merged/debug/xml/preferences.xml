@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:defaultValue="red"
+        android:entries="@array/colorName"
+        android:entryValues="@array/colorValue"
+        android:key="pref_color"
+        android:persistent="true"
+        android:title="@string/pref_color" />
+
+    <PreferenceCategory
+        android:key="pref_key_shoot_settings"
+        android:title="@string/shoot_modality" >
+        <ListPreference
+            android:defaultValue="manual"
+            android:entries="@array/typeName"
+            android:entryValues="@array/typeValue"
+            android:key="pref_method"
+            android:persistent="true"
+            android:title="@string/pref_type" />
+        <ListPreference
+            android:defaultValue="countdown"
+            android:enabled="true"
+            android:entries="@array/automaticShootName"
+            android:entryValues="@array/automaticShootValue"
+            android:key="pref_automatic_shoot"
+            android:persistent="true"
+            android:title="@string/automatic_shoot" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="pref_key_save_settings"
+        android:title="@string/save_modality" >
+        <ListPreference
+            android:defaultValue="onlyPicture"
+            android:entries="@array/whatSaveName"
+            android:entryValues="@array/whatSaveValue"
+            android:key="pref_what_save"
+            android:persistent="true"
+            android:title="@string/pref_what_save" />
+        <ListPreference
+            android:defaultValue="80"
+            android:entries="@array/qualityName"
+            android:entryValues="@array/qualityValue"
+            android:key="pref_quality"
+            android:persistent="true"
+            android:title="@string/pref_quality" />
+    </PreferenceCategory>
+
+</PreferenceScreen><!-- From: file:/C:/Users/Fabio/AndroidStudioProjects/ColorDetector/colorDetector/src/main/res/xml/preferences.xml -->

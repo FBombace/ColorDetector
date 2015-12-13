@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:project="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_action_settings"
+        android:orderInCategory="3"
+        project:showAsAction="always"
+        android:title="@string/action_settings" />
+    
+    <item 
+        android:id="@+id/action_camera"
+        android:icon="@drawable/ic_action_camera"
+        android:title="@string/action_camera"
+        android:orderInCategory="2"
+        project:showAsAction="always" />
+
+</menu>

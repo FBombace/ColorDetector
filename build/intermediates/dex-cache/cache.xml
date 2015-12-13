@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Fabio\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\Fabio\AndroidStudioProjects\ColorDetector\colorDetector\build\intermediates\pre-dexed\debug\support-v4-18.0.0-49c54cf64a5dcaeb6e5c54bacddacc13808562cb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fabio\AndroidStudioProjects\ColorDetector\colorDetector\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="C:\Users\Fabio\AndroidStudioProjects\ColorDetector\colorDetector\build\intermediates\pre-dexed\debug\classes-9d57f9e9c5c8d7f91a1c463c9cafeeede09bef0a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Fabio\AndroidStudioProjects\ColorDetector\colorDetector\build\intermediates\exploded-aar\ColorDetector\openCVLibrary2411\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0098ddb1aed47143b4b25fb0d62eb4fa97afb45c">
+        <dex dex="C:\Users\Fabio\AndroidStudioProjects\ColorDetector\colorDetector\build\intermediates\pre-dexed\debug\classes-bc70742b16dff54c5e9b174d5a537be60c235db3.jar" />
+    </item>
+
+</items>

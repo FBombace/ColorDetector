@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="colorValue">
+        <item>red</item>
+        <item>yellow</item>
+        <item>green</item>
+        <item>lightBlue</item>
+        <item>blue</item>
+        <item>magenta</item>
+    </string-array>
+    
+    <string-array name="colorName">
+        <item>@string/red</item>
+        <item>@string/yellow</item>
+        <item>@string/green</item>
+        <item>@string/light_blue</item>
+        <item>@string/blue</item>
+        <item>@string/magenta</item>
+    </string-array>
+    
+    <string-array name="qualityValue">
+        <item>100</item>
+        <item>80</item>
+        <item>60</item>
+        <item>40</item>
+    </string-array>
+    
+    <string-array name="qualityName">
+        <item>100</item>
+        <item>80</item>
+        <item>60</item>
+        <item>40</item>
+    </string-array>
+    
+    <string-array name="typeValue">
+        <item>manual</item>
+        <item>automatic</item>
+    </string-array>
+    
+    <string-array name="typeName">
+        <item>@string/manual</item>
+        <item>@string/automatic</item>
+    </string-array>
+    
+    <string-array name="whatSaveValue">
+        <item>onlyPicture</item>
+        <item>pictureAndColorMask</item>
+    </string-array>
+    
+    <string-array name="whatSaveName">
+        <item>@string/only_picture</item>
+        <item>@string/picture_and_color_mask</item>
+    </string-array>
+    
+    <string-array name="automaticShootValue">
+        <item>countdown</item>
+        <item>immediate</item>
+    </string-array>
+    
+    <string-array name="automaticShootName">
+        <item>Countdown (3 sec.)</item>
+        <item>@string/immediate_shoot</item>
+    </string-array>
+
+</resources>

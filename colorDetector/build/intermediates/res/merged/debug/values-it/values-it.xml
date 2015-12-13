@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Fabio/AndroidStudioProjects/ColorDetector/colorDetector/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="action_camera">Camera</string>
+    <string name="action_picture">Immagine</string>
+    <string name="action_settings">Opzioni</string>
+    <string name="app_name">ColorDetector</string>
+    <string name="automatic">Automatico</string>
+    <string name="automatic_shoot">Scatto automatico</string>
+    <string name="blue">Blu</string>
+    <string name="context_menu_delete">Cancella</string>
+    <string name="discard_frame">Continua senza salvare l\'immagine</string>
+    <string name="green">Verde</string>
+    <string name="img_captured_content">Immagine catturata dalla fotocamera</string>
+    <string name="img_filtered_content">Immagine catturata dalla fotocamera e filtrata</string>
+    <string name="img_full_content">Immagine visualizzata a schermo intero</string>
+    <string name="img_item_content">Immagine nella galleria</string>
+    <string name="immediate_shoot">Immediato</string>
+    <string name="light_blue">Azzurro</string>
+    <string name="magenta">Magenta</string>
+    <string name="manual">Manuale</string>
+    <string name="not_deleted_image_error">Errore inaspettato, immagine NON cancellata</string>
+    <string name="not_writeable_memory_error">Memoria esterna non scrivibile, immagine non salvata</string>
+    <string name="only_picture">Solo immagine catturata</string>
+    <string name="picture_and_color_mask">Immagine catturata + maschera di colore</string>
+    <string name="position_error">Errore, posizione dell\'immagine passata non valida</string>
+    <string name="pref_color">Colore da ricercare</string>
+    <string name="pref_quality">Qualità dell\'immagine da salvare</string>
+    <string name="pref_type">Cattura immagini</string>
+    <string name="pref_what_save">Salva immagine/i</string>
+    <string name="red">Rosso</string>
+    <string name="save_frame">Salva l\'immagine e continua</string>
+    <string name="save_modality">Modalità di salvataggio immagini</string>
+    <string name="shoot_modality">Modalità di scatto</string>
+    <string name="take_picture_content">Cattura immagine</string>
+    <string name="title_activity_captured_frame">Frame catturato</string>
+    <string name="title_activity_fullscreen_image">Immagine a schermo intero</string>
+    <string name="title_activity_gallery">Galleria</string>
+    <string name="title_activity_settings">Opzioni</string>
+    <string name="unexpected_error">Errore inaspettato, immagine non salvata</string>
+    <string name="write_error">Errore nella scrittura, immagine non salvata</string>
+    <string name="yellow">Giallo</string>
+</resources>

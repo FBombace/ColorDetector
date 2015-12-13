@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/Button2"
+        android:onClick="setSaveFrame"
+        android:text="@string/save_frame" />
+
+    <Button
+        android:id="@+id/Button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/Button1"
+        android:onClick="setDiscardFrame"
+        android:text="@string/discard_frame" />
+
+    <ImageView
+        android:id="@+id/img_original"
+        android:layout_width="250dp"
+        android:layout_height="190dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:contentDescription="@string/img_captured_content"
+        android:scaleType="centerInside" />
+
+    <ImageView
+        android:id="@+id/img_filtered"
+        android:layout_width="250dp"
+        android:layout_height="190dp"
+        android:paddingRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/img_original"
+        android:contentDescription="@string/img_filtered_content"
+        android:scaleType="centerInside" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Fabio/AndroidStudioProjects/ColorDetector/colorDetector/src/main/res/layout-land/activity_captured_frame.xml -->

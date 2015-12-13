@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ColorDetector.iml" filepath="$PROJECT_DIR$/ColorDetector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/colorDetector/colorDetector.iml" filepath="$PROJECT_DIR$/colorDetector/colorDetector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openCVLibrary2411/openCVLibrary2411.iml" filepath="$PROJECT_DIR$/openCVLibrary2411/openCVLibrary2411.iml" />
+    </modules>
+  </component>
+</project>
